@@ -62,3 +62,15 @@
 .friend__now-listening i {
   font-size: 11px;
 }
+
+.friend .friend__right-btn {
+  width: 60px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1.5px solid #1b1b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8px 8px;
+}

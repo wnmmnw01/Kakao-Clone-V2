@@ -11,14 +11,15 @@
   font-weight: 700;
 }
 
-.header .header__title-s {
+.header__title-s {
   font-size: 20px;
   font-weight: 700;
+  margin-left: 15px;
 }
 
 .header .header__icon {
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: 20px;
   font-size: 22px;
 }
 
