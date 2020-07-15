@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/919f5bc45d.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
 
     <title>Chats | Kakao Clone</title>
   </head>
@@ -35,10 +35,31 @@
           <i class="far fa-comment"></i>
         </span>
         <span class="header__icon">
+          <i class="fas fa-music"></i>
+        </span>
+        <span class="header__icon">
           <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chat__column">
+              <img src="img/avatar.jpg" alt="" class="chat__avatar g-avatar" />
+              <div class="chat__content">
+                <span class="chat__username">Brian</span>
+                <span class="chat__preview">it'll be fine before that</span>
+              </div>
+            </div>
+            <div class="chat__column">
+              <span class="chat__timestamp">Yesterday</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
@@ -53,7 +74,7 @@
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search"></i>
+            <i class="fas fa-hashtag"></i>
           </a>
         </li>
         <li class="nav__list-item">
